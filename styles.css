@@ -240,7 +240,7 @@ img {
 
 .container-about {
     background-color: #000000;
-    height: 500px;
+    height: 550px;
     display: flex;
     align-items: center;
 
@@ -257,7 +257,7 @@ img {
 
 .container-about span {
     font-size: 50px;
-    color: #134f5e;
+    color: rgb(5, 50, 56);
     font-weight: 600;
 
 }
@@ -293,8 +293,8 @@ img {
 
 .project-container {
     width: 100%;
-    height: 500px;
-    background-color: rgb(13, 83, 92);
+    height: 600px;
+    background-color: rgb(5, 50, 56);
     justify-content: center;
     display: flex;
     padding-top: 70px;
@@ -305,13 +305,13 @@ img {
     color: #ffffff;
     font-size: 40px;
     background-color: #ffffff;
-    color: #0d535c;
+    background-color: rgb(5, 50, 56);
 
 }
 
 @keyframes glow {
     0% {
-        text-shadow: 0 0 10px #052d3f, 0 0 20px #f5f3f1, 0 0 30px #f1eee8;
+        text-shadow: 0 0 10px #feffff, 0 0 20px #f5f3f1, 0 0 30px #f1eee8;
     }
 
     100% {
