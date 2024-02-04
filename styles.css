@@ -306,6 +306,7 @@ img {
     font-size: 40px;
     background-color: #ffffff;
     background-color: rgb(5, 50, 56);
+    border: none;
 
 }
 
@@ -683,15 +684,17 @@ textarea {
 
 
     .home-text .home-h4 {
-        font-size: 49px;
+        font-size: 45px;
         margin-bottom: 0rem;
         line-height: 4rem;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     span {
-        font-size: 50px;
+        font-size: 45px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
 
@@ -727,7 +730,6 @@ textarea {
     .project-container {
 
         width: 100%;
-        background-color: rgb(13, 83, 92);
         display: grid;
         grid-template-columns: repeat(2, 2);
         grid-gap: 10px;
@@ -735,12 +737,14 @@ textarea {
         padding-bottom: 20px;
         height: 2220px;
 
+
     }
 
 
     .project-container h1 {
         text-align: center;
         margin-bottom: 10px;
+        border: none;
     }
 
 
