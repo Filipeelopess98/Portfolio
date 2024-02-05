@@ -692,15 +692,32 @@ textarea {
     }
 
     .home-text {
-        margin-top: 114px;
+        margin-top: 211px;
         padding-left: 10px;
         padding-right: 10px;
 
     }
 
 
+    .home-text .home-h4 {
+        font-size: 55px;
+        margin-bottom: -1rem;
+        line-height: 4rem;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: -65px;
+    }
+
+
+    span {
+        font-size: 49px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
     .image-tec {
-        padding-top: 70px;
+        padding-top: 47px;
     }
 
     .home-img {
@@ -710,23 +727,23 @@ textarea {
 
 
     .home-text .home-h4 {
-        font-size: 45px;
-        margin-bottom: 0rem;
+        font-size: 50px;
         line-height: 4rem;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 17px;
+        padding-right: 17px;
     }
 
     span {
-        font-size: 45px;
+        font-size: 50px;
         padding-left: 15px;
         padding-right: 15px;
     }
 
     .button-curriculum,
     .button-github {
-        width: 170px;
-        height: 45px;
+
+        width: 164px;
+        height: 44px;
         border: none;
         border-radius: 25px;
         background-color: rgb(255, 255, 255);
@@ -735,6 +752,7 @@ textarea {
         cursor: pointer;
         font-size: 17px;
         color: rgb(5, 50, 56);
+
     }
 
 
@@ -865,7 +883,6 @@ textarea {
         color: #ffffff;
 
     }
-
 
 
 
