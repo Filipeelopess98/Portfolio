@@ -56,6 +56,7 @@ video {
     transition: all 0.5s;
     position: fixed;
     cursor: pointer;
+    font-size: 18px;
 }
 
 .nav-item:hover {
@@ -72,7 +73,7 @@ video {
 
 .navigation ul li a {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 22px;
     font-size: 500;
     border-bottom: 3px solid #ffffff;
 }
@@ -186,15 +187,15 @@ span {
 
 .button-curriculum,
 .button-github {
-    width: 150px;
-    height: 30px;
+    width: 160px;
+    height: 40px;
     border: none;
     border-radius: 15px;
-    background-color: #ffffff;
-    box-shadow: 2px 2px 2px 2px #000000;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(0, 0, 0) 2px 2px 2px 2px;
     font-weight: 700;
     cursor: pointer;
-    transition: transform 0.3s ease-in-out
+    transition: transform 0.3s ease-in-out 0s;
 }
 
 .button-curriculum:hover {
@@ -435,24 +436,26 @@ img {
     max-width: 600px;
     margin: 50px auto;
     padding: 15px;
-    background-color: #fff;
+    background-color: #0d535c;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .container-contact h2 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
+    font-weight: 400;
 }
 
 .container-contact form {
     display: grid;
-    gap: 10px;
+    gap: 7px;
+    padding-top: 18px;
 }
 
 .container-contact label {
-    font-weight: bold;
-    color: #0d535c;
+    font-weight: 400;
+    color: #fff;
 }
 
 .container-contact input,
@@ -465,17 +468,20 @@ textarea {
 }
 
 .container-contact button {
-    background-color: #0d535c;
-    color: #fff;
+    background-color: #ffffff;
+    color: #0d535c;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     font-size: 16px;
+    font-weight: 500;
+
 }
 
 .container-contact button:hover {
-    background-color: #1f6da8;
+    background-color: #248896;
+    ;
 }
 
 
@@ -483,7 +489,7 @@ textarea {
 
 .fale {
     text-align: center;
-    background-color: #ffffff;
+    background-color: #0d535c;
     width: 100%;
     height: 135px;
     margin-top: -47px;
@@ -491,9 +497,10 @@ textarea {
 }
 
 .fale h3 {
-    color: #0d535c;
+    color: #ffffff;
     text-align: center;
     font-size: 18px;
+    font-weight: 400;
 }
 
 .fale img {
@@ -512,9 +519,9 @@ textarea {
 
 .direitos {
     text-align: center;
-    color: #0d535c;
+    color: #ffffff;
     padding-bottom: 15px;
-    font-weight: 600;
+    font-weight: 400;
 
 
 }
@@ -717,7 +724,7 @@ textarea {
     }
 
     .p-about {
-        font-size: 13px;
+        font-size: 16px;
         font-weight: 500;
         width: 314px;
         margin-top: -16px;
@@ -745,6 +752,7 @@ textarea {
         text-align: center;
         margin-bottom: 10px;
         border: none;
+        padding: 27px;
     }
 
 
@@ -766,12 +774,56 @@ textarea {
     }
 
     .container-contact {
-        max-width: 577px;
-        margin: 50px auto;
-        padding: 83px;
-        background-color: #fff;
+        max-width: 550px;
+        margin: -15px auto;
+        padding: 42px;
+        background-color: #0d535c;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
+
+    .container-contact h2 {
+        text-align: center;
+        color: #ffffff;
+        font-weight: 400;
+    }
+
+    .container-contact form {
+        display: grid;
+        gap: 7px;
+        padding-top: 18px;
+    }
+
+    .container-contact label {
+        font-weight: 400;
+        color: #fff;
+    }
+
+    .container-contact input,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #333;
+        border-radius: 10px;
+    }
+
+    .container-contact button {
+        background-color: #ffffff;
+        color: #0d535c;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+
+    }
+
+    .container-contact button:hover {
+        background-color: #248896;
+        ;
+    }
+
 
 
 
