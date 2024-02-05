@@ -700,12 +700,12 @@ textarea {
 
 
     .home-text .home-h4 {
-        font-size: 55px;
-        margin-bottom: -1rem;
-        line-height: 4rem;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-top: -65px;
+        font-size: 51px;
+        line-height: 5rem;
+        padding-left: 17px;
+        padding-right: 17px;
+        max-width: 500px;
+        margin-top: -160px
     }
 
 
@@ -717,12 +717,19 @@ textarea {
 
 
     .image-tec {
-        padding-top: 47px;
+        padding-top: -10px;
     }
 
     .home-img {
         display: none;
     }
+
+
+    .button-home {
+        margin-top: 173px;
+
+    }
+
 
 
 
