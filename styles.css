@@ -156,7 +156,6 @@ ul::after {
 
 }
 
-.home-h5 span {}
 
 
 span {
@@ -201,7 +200,7 @@ span {
     width: 180px;
     height: 50px;
     border: none;
-    border-radius: 15px;
+    border-radius: 30px;
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(0, 0, 0) 2px 2px 2px 2px;
     font-weight: 700;
@@ -210,6 +209,16 @@ span {
     transition: transform 0.3s ease-in-out 0s;
     color: rgb(5, 50, 56);
 }
+
+
+.button-home {
+    margin-top: 29px;
+    display: flex;
+
+    gap: 30px;
+}
+
+
 
 .button-curriculum:hover {
     transform: scale(1.2);
@@ -749,10 +758,10 @@ textarea {
     .button-curriculum,
     .button-github {
 
-        width: 164px;
-        height: 44px;
+        width: 170px;
+        height: 50px;
         border: none;
-        border-radius: 25px;
+        border-radius: 30px;
         background-color: rgb(255, 255, 255);
         box-shadow: rgb(0, 0, 0) 2px 2px 2px 2px;
         font-weight: 800;
@@ -762,6 +771,16 @@ textarea {
 
     }
 
+
+
+    .button-home {
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
 
 
 
