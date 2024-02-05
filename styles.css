@@ -198,15 +198,17 @@ span {
 
 .button-curriculum,
 .button-github {
-    width: 160px;
-    height: 40px;
+    width: 180px;
+    height: 50px;
     border: none;
     border-radius: 15px;
     background-color: rgb(255, 255, 255);
     box-shadow: rgb(0, 0, 0) 2px 2px 2px 2px;
     font-weight: 700;
     cursor: pointer;
+    font-size: 17px;
     transition: transform 0.3s ease-in-out 0s;
+    color: rgb(5, 50, 56);
 }
 
 .button-curriculum:hover {
@@ -720,6 +722,22 @@ textarea {
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    .button-curriculum,
+    .button-github {
+        width: 170px;
+        height: 45px;
+        border: none;
+        border-radius: 25px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgb(0, 0, 0) 2px 2px 2px 2px;
+        font-weight: 800;
+        cursor: pointer;
+        font-size: 17px;
+        color: rgb(5, 50, 56);
+    }
+
+
 
 
     .container-about {
