@@ -436,7 +436,7 @@ img {
     max-width: 600px;
     margin: 50px auto;
     padding: 15px;
-    background-color: #0d535c;
+    background-color: rgb(5, 50, 56);
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -467,6 +467,12 @@ textarea {
     border-radius: 10px;
 }
 
+#message {
+
+    height: 200px;
+    margin-bottom: 20px;
+}
+
 .container-contact button {
     background-color: #ffffff;
     color: #0d535c;
@@ -483,8 +489,6 @@ textarea {
     background-color: #248896;
     ;
 }
-
-
 
 
 .fale {
@@ -777,7 +781,7 @@ textarea {
         max-width: 550px;
         margin: -15px auto;
         padding: 42px;
-        background-color: #0d535c;
+        background-color: rgb(5, 50, 56);
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
@@ -807,6 +811,12 @@ textarea {
         border-radius: 10px;
     }
 
+    #message {
+
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
     .container-contact button {
         background-color: #ffffff;
         color: #0d535c;
@@ -821,7 +831,7 @@ textarea {
 
     .container-contact button:hover {
         background-color: #248896;
-        ;
+
     }
 
 
