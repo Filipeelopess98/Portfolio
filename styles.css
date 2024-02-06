@@ -952,7 +952,7 @@ textarea {
     .menu {
         display: block;
         font-size: 63px;
-        margin-left: 438px;
+        margin-left: 354px;
 
 
     }
@@ -1100,8 +1100,8 @@ textarea {
     .button-curriculum,
     .button-github {
 
-        width: 250px;
-        height: 70px;
+        width: 200px;
+        height: 50px;
         border: none;
         border-radius: 30px;
         background-color: rgb(255, 255, 255);
