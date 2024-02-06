@@ -742,16 +742,16 @@ textarea {
 
 
     .home-text .home-h4 {
-        font-size: 50px;
+        font-size: 45px;
         line-height: 4rem;
-        padding-left: 17px;
-        padding-right: 17px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     span {
-        font-size: 50px;
-        padding-left: 15px;
-        padding-right: 15px;
+        font-size: 45px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .button-curriculum,
@@ -940,7 +940,7 @@ textarea {
 
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 
 
     .navigation {
@@ -1079,6 +1079,7 @@ textarea {
         padding-left: 20px;
         padding-right: 20px;
     }
+
 
 
 
