@@ -214,7 +214,6 @@ span {
 .button-home {
     margin-top: 29px;
     display: flex;
-
     gap: 30px;
 }
 
@@ -936,6 +935,270 @@ textarea {
     .fale img {
         width: 55px;
         padding-bottom: 20px;
+    }
+
+
+}
+
+@media (max-width: 800px) {
+
+
+    .navigation {
+        padding: 15px 20px;
+        border-bottom: 2px solid #ffffff;
+    }
+
+
+    .menu {
+        display: block;
+        font-size: 63px;
+        margin-left: 438px;
+
+
+    }
+
+
+    .menu.ativo .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+        background-color: #ffffff;
+    }
+
+    .menu.ativo .bar:nth-child(2) {
+        opacity: 0;
+        background-color: #ffffff;
+
+    }
+
+    .menu.ativo .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+        background-color: #ffffff;
+
+    }
+
+
+    .menu .bar:nth-child(1),
+    .menu .bar:nth-child(3) {
+        background: #ffffff;
+    }
+
+    .menu .bar {
+        display: block;
+        width: 28px;
+        height: 3px;
+        background: #ffffff;
+        margin: 5px auto;
+        transition: all 0.8s;
+
+    }
+
+
+
+    .nav-menu {
+        position: fixed;
+        right: -100%;
+        top: 50px;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        background: #012831;
+        color: #f0efef;
+        gap: 2px;
+        transition: 0.3s;
+        font-size: 17px;
+        font-weight: 500;
+        cursor: pointer;
+        border-bottom: 2px solid #ffffff;
+
+    }
+
+    .nav-menu p {
+        display: none;
+    }
+
+
+
+    .nav-menu i {
+        font-size: 40px;
+        color: #f0efef;
+    }
+
+    .nav-menu li:hover {
+
+        color: #ffffff;
+    }
+
+    .nav-menu button {
+        background-color: #AF2424;
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+
+    .nav-menu i:hover {
+        color: #0e0e0e;
+    }
+
+
+    .nav-menu.ativo {
+        right: 0;
+    }
+
+
+    .nav-item {
+        display: flex;
+        justify-content: left;
+        align-items: last baseline;
+        text-decoration: none;
+        color: rgb(223, 223, 223);
+        transition: background-color 0.8s, color 0.8s, transform 0.8s;
+
+    }
+
+    .nav-item:hover {
+        color: rgb(173, 173, 173);
+        transform: scale(1.05);
+
+    }
+
+    .nav-item:active {
+        color: rgb(173, 173, 173);
+        transform: scale(1.05);
+
+    }
+
+
+
+    .home-img img {
+        display: none;
+    }
+
+    .home-text .home-h4 {
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+
+    .button-home {
+        margin-top: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .image-tec {
+        text-align: center;
+
+
+    }
+
+
+    .button-curriculum,
+    .button-github {
+
+        width: 250px;
+        height: 70px;
+        border: none;
+        border-radius: 30px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: rgb(0, 0, 0) 2px 2px 2px 2px;
+        font-weight: 800;
+        cursor: pointer;
+        font-size: 20px;
+        color: rgb(5, 50, 56);
+
+    }
+
+
+    .button-home {
+        margin-top: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+
+    .p-about {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        height: auto;
+        flex: 1;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .container-about img {
+        padding-top: 13px;
+        width: 453px;
+        padding-right: 20px;
+        max-width: 109%;
+        border-radius: 30px;
+        animation: floatUpDown 2s ease-in-out infinite;
+    }
+
+
+    .project-container {
+
+        display: grid;
+        grid-gap: 24px;
+        max-width: 800px;
+        margin: 0 auto;
+        height: 2365px;
+
+    }
+
+    .project-h1 {
+        text-align: center;
+        color: #ffffff;
+        font-size: 50px;
+        background-color: #ffffff;
+        background-color: rgb(5, 50, 56);
+        border: none;
+        padding-top: 41px;
+        margin-bottom: -19px;
+    }
+
+
+    .project-001,
+    .project-002,
+    .project-003,
+    .project-004,
+    .project-005,
+    .project-006 {
+        width: 280px;
+        padding: 36px;
+    }
+
+    .img-project {
+        width: 213px;
+        text-align: center;
+        padding-top: 11px;
+    }
+
+    .project-001,
+    .project-002,
+    .project-003,
+    .project-004,
+    .project-005,
+    .project-006 h4 {
+        font-size: 15px;
+    }
+
+    .project-001,
+    .project-002,
+    .project-003,
+    .project-004,
+    .project-005,
+    .project-006 h4 {
+        font-size: 14px;
     }
 
 
