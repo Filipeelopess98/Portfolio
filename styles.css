@@ -757,8 +757,8 @@ textarea {
     .button-curriculum,
     .button-github {
 
-        width: 170px;
-        height: 50px;
+        width: 160px;
+        height: 40px;
         border: none;
         border-radius: 30px;
         background-color: rgb(255, 255, 255);
