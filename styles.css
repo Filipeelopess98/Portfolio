@@ -1049,6 +1049,7 @@ textarea {
         flex: 1;
         padding-right: 15px;
         padding-left: 15px;
+        margin-top: 112px;
     }
 
     .container-about span {
