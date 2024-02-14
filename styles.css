@@ -161,12 +161,12 @@ span {
     border: none;
     border-radius: 30px;
     background-color: rgb(255, 255, 255);
-    box-shadow: rgb(5, 5, 5) 2px 2px 2px 2px;
     font-weight: 800;
     cursor: pointer;
     font-size: 17px;
     transition: transform 0.3s ease-in-out 0s;
     color: #000000;
+    box-shadow: 2px 3px 5px 5px #000000;
 
 }
 
@@ -718,9 +718,9 @@ textarea {
 
 
     span {
-        font-size: 49px;
-        padding-left: 15px;
-        padding-right: 15px;
+        font-size: 52px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .home-img {
@@ -1072,8 +1072,10 @@ textarea {
 
     .home-text .home-h4 {
         text-align: center;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 33px;
+        padding-right: 31px;
+        font-size: 50px;
+
     }
 
 
@@ -1164,7 +1166,6 @@ textarea {
 
 
 
-
     .name-tec {
 
         background-color: #fb8500;
@@ -1197,6 +1198,7 @@ textarea {
             5px 3px 10px #1a1b1b,
             inset -5px -5px 15px #1a1b1b,
             inset 5px 10px 10px #1a1b1b;
+        transition: transform 0.3s ease-in-out;
     }
 
 
@@ -1227,7 +1229,7 @@ textarea {
         grid-gap: 24px;
         max-width: 800px;
         margin: 0 auto;
-        height: 2447px;
+        height: 2586px;
 
     }
 
@@ -1263,8 +1265,36 @@ textarea {
     .project-004,
     .project-005,
     .project-006 h4 {
-        font-size: 15px;
+        font-size: 16px;
     }
+
+
+    .descrição h5 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 8px;
+        padding-bottom: 8px;
+        font-size: 14px;
+    }
+
+
+    .button-project,
+    .button-repository {
+        width: 130px;
+        border: none;
+        background-color: #fb8500;
+        color: #000000;
+        font-weight: 700;
+        height: 32px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+        font-size: 13px;
+        cursor: pointer;
+        box-shadow: 2px 3px 5px 5px #000000;
+    }
+
+
 
     .project-001,
     .project-002,
