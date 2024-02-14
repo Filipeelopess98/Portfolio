@@ -46,6 +46,7 @@ header {
 
 .nav-item:hover {
     font-weight: 700;
+    color: #ffffff;
 }
 
 .navigation ul {
@@ -126,14 +127,14 @@ ul::after {
 
 
 .home-text .home-h4 {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     margin-bottom: 2rem;
     line-height: 4rem;
     color: #000000
 }
 
 .home-h5 {
-    font-size: 3.0rem;
+    font-size: 3.5rem;
     color: #ffffff;
 
 
@@ -144,19 +145,7 @@ span {
     color: #fdfdfd
 }
 
-.img-htmljscssnodegit {
-    width: 70px;
-    border: none;
-    border-radius: 50%;
-    background-color: #ffffff;
-    animation: glow 2s infinite alternate;
-    transition: transform 0.3s ease-in-out;
-}
 
-
-.img-htmljscssnodegit:hover {
-    transform: scale(1.2);
-}
 
 .home-p {
     margin-bottom: 3rem;
@@ -204,14 +193,28 @@ span {
 }
 
 .home-img img {
-    text-align: left;
-    flex: 2;
-    width: 500px;
-    border-radius: 45%;
-    box-shadow: 0 8px 2px -1px rgba(0, 0, 0, 0.4);
-    animation: floatUpDown 2s ease-in-out infinite;
+    width: 550px;
+    border-radius: 40%;
+    box-shadow: 5px 8px 5px -1px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    animation: floatUpDown 3s ease-in-out infinite;
 }
 
+
+@keyframes floatUpDown {
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%);
+    }
+
+    50% {
+        transform: translate(-50%, -60%);
+    }
+}
 
 img {
     width: 800px;
@@ -250,8 +253,7 @@ img {
     flex: 1;
     padding-right: 15px;
     padding-left: 15px;
-
-
+    margin-bottom: 307px
 }
 
 .container-about img {
@@ -260,14 +262,83 @@ img {
     padding-right: 20px;
     max-width: 110%;
     border-radius: 30px;
-    animation: floatUpDown 2s ease-in-out infinite;
 }
-
 
 .project-container::after {
     content: "";
     display: table;
     clear: both;
+}
+
+
+.name-tec {
+    background-color: #fb8500;
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.html,
+.css,
+.js,
+.node,
+.github {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: -5px -5px 10px rgba(5, 5, 5, 0.1),
+        5px 3px 10px #1a1b1b,
+        inset -5px -5px 15px #1a1b1b,
+        inset 5px 10px 10px #1a1b1b;
+}
+
+.img-html,
+.img-css,
+.img-js,
+.img-node,
+.img-github {
+    width: 130px;
+    margin-bottom: 20px;
+}
+
+.descrição-tec {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 290px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.descrição-tec span {
+    color: #fb8500;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.descrição-tec h4 {
+
+    padding-top: 5px;
+    padding-bottom: 10px;
+
 }
 
 
@@ -277,7 +348,6 @@ img {
     font-size: 60px;
     background-color: #000000;
     border: none;
-    margin-top: -150px;
     padding-top: 150px;
 
 
@@ -435,8 +505,10 @@ textarea {
 }
 
 .container-contact button:hover {
-    background-color: #000000;
+    background-color: #fb8500;
     color: #000000;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px 2px solid #000000;
 
 }
 
@@ -770,10 +842,6 @@ textarea {
 
     }
 
-
-
-
-
     .project-001,
     .project-002,
     .project-003,
@@ -783,6 +851,7 @@ textarea {
         width: 40%, 40%;
         padding: 16px;
     }
+
 
     .img-project {
         width: 165px;
@@ -843,7 +912,6 @@ textarea {
 
     .fale {
         text-align: center;
-
         width: 100%;
         height: 160px;
 
@@ -1053,15 +1121,15 @@ textarea {
     .p-about {
         background-color: #ffffff;
         color: #000000;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 500;
         text-align: center;
         height: auto;
         flex: 1;
         padding-right: 15px;
         padding-left: 15px;
-        margin-top: -11px;
-        height: 529px
+        margin-top: 202px;
+        height: 459px;
     }
 
     .container-about span {
@@ -1081,6 +1149,71 @@ textarea {
     }
 
 
+    .container-about {
+        background-color: #000000;
+        height: 96px;
+    }
+
+
+
+
+
+    .name-tec {
+
+        background-color: #fb8500;
+        height: 1521px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 1600px;
+
+    }
+
+
+
+    .html,
+    .css,
+    .js,
+    .node,
+    .github {
+        width: 282px;
+        height: 287px;
+        margin: 10px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        box-shadow: -5px -5px 10px rgba(5, 5, 5, 0.1),
+            5px 3px 10px #1a1b1b,
+            inset -5px -5px 15px #1a1b1b,
+            inset 5px 10px 10px #1a1b1b;
+    }
+
+
+    .descrição-tec p {
+        width: 281px;
+        font-size: 13px;
+        padding-left: 9px;
+        padding-right: 9px;
+        font-weight: 500;
+    }
+
+
+    .img-html,
+    .img-css,
+    .img-js,
+    .img-node,
+    .img-github {
+        width: 70px;
+        margin-bottom: 10px;
+    }
+
+
+
+
     .project-container {
 
         display: grid;
@@ -1097,7 +1230,7 @@ textarea {
         border: none;
         padding-top: 41px;
         margin-bottom: -19px;
-        padding-top: 167px;
+        padding-top: 45px;
     }
 
 
@@ -1132,8 +1265,9 @@ textarea {
     .project-004,
     .project-005,
     .project-006 h4 {
-        font-size: 14px;
-    }
 
+        font-size: 14px;
+
+    }
 
 }
