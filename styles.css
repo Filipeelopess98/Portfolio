@@ -369,7 +369,7 @@ img {
 .project-004,
 .project-005,
 .project-006 {
-    width: 260px;
+    width: 270px;
     float: left;
     border-radius: 20px;
     background-color: #ffffff;
@@ -378,7 +378,7 @@ img {
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
-    height: 330px;
+    height: 370px;
     box-shadow: -5px -5px 10px rgb(238, 129, 5),
         5px 3px 10px rgb(238, 129, 5),
         inset -5px -5px 15px rgb(238, 129, 5),
@@ -427,7 +427,7 @@ img {
 }
 
 .img-tec {
-    width: 110px;
+    width: 130px;
     text-align: center;
     margin-bottom: 10px;
     margin-top: 5px;
