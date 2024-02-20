@@ -131,8 +131,24 @@ ul::after {
     font-size: 3.5rem;
     margin-bottom: 2rem;
     line-height: 4rem;
-    color: #141414
+    color: #141414;
+    animation: shadow-move 2s infinite alternate;
 }
+
+@keyframes shadow-move {
+    0% {
+        text-shadow: 0 0 rgb(27, 27, 27);
+    }
+
+    50% {
+        text-shadow: 10px 10px 10px rgb(43, 41, 41);
+    }
+
+    100% {
+        text-shadow: 20px 20px 20px rgb(22, 22, 22);
+    }
+}
+
 
 .home-h5 {
     font-size: 3.5rem;
@@ -245,7 +261,7 @@ img {
 
 .container-about {
     text-align: center;
-    background-color: #f0efef;
+    background: linear-gradient(to bottom right, #141414, #fb8500);
     height: 900px;
 
 }
@@ -257,6 +273,7 @@ img {
     line-height: 1.5;
     padding-bottom: 30px;
     width: 1900px;
+    color: #f0efef;
 }
 
 
