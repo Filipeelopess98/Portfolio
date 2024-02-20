@@ -280,21 +280,21 @@ img {
 }
 
 section {
-    height: 400px;
+    height: 600px;
 
 }
 
 h1 {
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 30px;
+    padding-bottom: 60px;
+    font-size: 50px;
 }
 
 
 .bloco {
-    width: 200px;
-    height: 300px;
+    width: 210px;
+    height: 320px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     box-shadow: 1px 1px 1px #000000;
@@ -312,7 +312,7 @@ h1 {
 
 .bloco:hover {
     transform: scale(1.1);
-    border: 3px solid #fb8500;
+    border: 3px solid #000000;
 
 }
 
@@ -325,117 +325,121 @@ h1 {
 
 .bloco p {
     margin-top: 7px;
-    font-size: 12px;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 10px;
-}
-
-
-
-.project-h1 {
-    text-align: center;
-    color: #fb8500;
-    font-size: 60px;
-    background-color: #000000;
-    border: none;
-    padding-top: 150px;
-
-
-}
-
-.project-container {
-    width: 100%;
-    height: 1000px;
-    background-color: #000000;
-    justify-content: center;
-    display: flex;
-    padding-top: 140px;
-}
-
-
-.project-001,
-.project-002,
-.project-003,
-.project-004,
-.project-005,
-.project-006 {
-    width: 270px;
-    float: left;
-    border-radius: 20px;
-    background-color: #ffffff;
-    color: #000000;
-    margin: 10px;
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-    height: 370px;
-    box-shadow: -5px -5px 10px rgb(238, 129, 5),
-        5px 3px 10px rgb(238, 129, 5),
-        inset -5px -5px 15px rgb(238, 129, 5),
-        inset 5px 10px 10px rgb(238, 129, 5);
-
-}
-
-.project-001,
-.project-002,
-.project-003,
-.project-004,
-.project-005,
-.project-006 h4 {
-    text-align: center;
-    color: #000000;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    font-size: 15px;
-}
-
-
-.descrição h5 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 8px;
-    padding-bottom: 8px;
     font-size: 13px;
-
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    font-weight: 500;
 }
 
-.img-project {
-    width: 210px;
-    text-align: center;
+
+
+
+
+.container-projects {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    height: 600px;
+    padding-top: 90px;
+}
+
+
+
+.project001,
+.project002,
+.project003,
+.project004,
+.project005,
+.project006 {
+    max-width: 250px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #141414;
+    border: 1px solid #ccc;
     border-radius: 15px;
-    padding-top: 10px;
+    text-align: center;
     transition: transform 0.3s ease-in-out;
 
-
 }
 
-.img-project:hover {
-    transform: scale(1.2);
+
+.project001:hover,
+.project002:hover,
+.project003:hover,
+.project004:hover,
+.project005:hover,
+.project006:hover {
+    transform: scale(1.1);
+    border: 3px solid #fb8500;
+}
+
+
+.img-project {
+    max-width: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
     padding-left: 5px;
     padding-right: 5px;
 }
 
 .img-tec {
-    width: 130px;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-top: 5px;
+    max-width: 110px;
+    margin-top: 20px;
+}
+
+
+.project001 h4,
+.project002 h4,
+.project003 h4,
+.project004 h4,
+.project005 h4,
+.project006 h4 {
+    font-size: 14px;
+    padding-top: 10px;
+    color: #f0f0f0;
+}
+
+.project001 h5,
+.project002 h5,
+.project003 h5,
+.project004 h5,
+.project005 h5,
+.project006 h5 {
+    font-size: 13px;
+    margin-top: 10px;
+    color: #f0f0f0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .button-project,
 .button-repository {
-    width: 120px;
+    width: 180px;
+    height: 35px;
+    margin: 5px;
     border: none;
+    border-radius: 10px;
     background-color: #fb8500;
-    color: #000000;
-    font-weight: 700;
-    height: 28px;
-    border-radius: 12px;
-    margin-bottom: 15px;
-    font-size: 13px;
-    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.button-project:hover,
+.button-repository:hover {
+    background-color: #d16818;
 }
 
 
@@ -805,6 +809,16 @@ textarea {
     }
 
 
+    h1 {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        font-size: 30px;
+    }
+
+
+
+
     .container {
         max-width: 90%;
 
@@ -812,7 +826,7 @@ textarea {
 
     .bloco {
         width: 162px;
-        height: 290px;
+        height: 280px;
         transition: transform 0.3s ease-in-out;
 
     }
@@ -832,50 +846,25 @@ textarea {
         font-size: 11px;
         padding-left: 4px;
         padding-right: 4px;
-        font-weight: 500;
+        font-weight: 600;
+    }
+
+    .container-projects {
+        height: 2400px;
+    }
+
+
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        flex: 0 0 calc(100% - 20px);
     }
 
 
 
-    .project-container h1 {
-        text-align: center;
-        margin-bottom: 10px;
-        border: none;
-        padding: 27px;
-        padding-top: 167px;
-    }
-
-
-    .project-container {
-
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(2, 2);
-        grid-gap: 10px;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        height: 1900px;
-
-
-    }
-
-    .project-001,
-    .project-002,
-    .project-003,
-    .project-004,
-    .project-005,
-    .project-006 {
-        width: 40%, 40%;
-        padding: 16px;
-    }
-
-
-    .img-project {
-        width: 180px;
-        text-align: center;
-        padding-top: 10px;
-
-    }
 
     .container-contact {
         max-width: 320px;
@@ -1191,89 +1180,5 @@ textarea {
     }
 
 
-
-    .project-container {
-
-        display: grid;
-        grid-gap: 24px;
-        max-width: 800px;
-        margin: 0 auto;
-        height: 2586px;
-
-    }
-
-    .project-h1 {
-        text-align: center;
-        font-size: 50px;
-        border: none;
-        padding-top: 50px;
-        margin-bottom: -19px;
-        padding-top: 45px;
-    }
-
-
-    .project-001,
-    .project-002,
-    .project-003,
-    .project-004,
-    .project-005,
-    .project-006 {
-        width: 280px;
-        padding: 16px;
-    }
-
-    .img-project {
-        width: 213px;
-        text-align: center;
-        padding-top: 11px;
-    }
-
-    .project-001,
-    .project-002,
-    .project-003,
-    .project-004,
-    .project-005,
-    .project-006 h4 {
-        font-size: 16px;
-    }
-
-
-    .descrição h5 {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        margin-top: 8px;
-        padding-bottom: 8px;
-        font-size: 14px;
-    }
-
-
-    .button-project,
-    .button-repository {
-        width: 130px;
-        border: none;
-        background-color: #fb8500;
-        color: #000000;
-        font-weight: 700;
-        height: 32px;
-        border-radius: 12px;
-        margin-bottom: 20px;
-        font-size: 13px;
-        cursor: pointer;
-        box-shadow: 2px 3px 5px 5px #000000;
-    }
-
-
-
-    .project-001,
-    .project-002,
-    .project-003,
-    .project-004,
-    .project-005,
-    .project-006 h4 {
-
-        font-size: 14px;
-
-    }
 
 }
