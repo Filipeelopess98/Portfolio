@@ -18,7 +18,7 @@ header {
     width: 100%;
     z-index: 1000;
     background-color: #fb8500;
-    ;
+
 }
 
 
@@ -37,7 +37,7 @@ header {
     justify-content: center;
     padding: 18px 40px;
     width: 100%;
-    background-color: #000000;
+    background-color: #141414;
     position: fixed;
     cursor: pointer;
     font-size: 18px;
@@ -131,7 +131,7 @@ ul::after {
     font-size: 3.5rem;
     margin-bottom: 2rem;
     line-height: 4rem;
-    color: #000000
+    color: #141414
 }
 
 .home-h5 {
@@ -166,7 +166,7 @@ span {
     cursor: pointer;
     font-size: 17px;
     transition: transform 0.3s ease-in-out 0s;
-    color: #000000;
+    color: #141414;
     box-shadow: 2px 3px 5px 5px #000000;
 
 }
@@ -246,7 +246,7 @@ img {
 }
 
 .p-about {
-    color: #000000;
+    color: #141414;
     font-size: 19px;
     font-weight: 600;
     text-align: center;
@@ -265,13 +265,6 @@ img {
     border-radius: 30px;
 }
 
-.project-container::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
 .container {
     text-align: center;
     margin: 0 auto;
@@ -280,7 +273,7 @@ img {
 }
 
 section {
-    height: 600px;
+    height: 700px;
 
 }
 
@@ -289,6 +282,7 @@ h1 {
     padding-top: 20px;
     padding-bottom: 60px;
     font-size: 50px;
+    color: #141414;
 }
 
 
@@ -297,7 +291,7 @@ h1 {
     height: 320px;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
-    box-shadow: 1px 1px 1px #000000;
+    box-shadow: 1px 1px 1px #141414;
     text-align: center;
     margin: 10px;
     display: inline-block;
@@ -312,10 +306,9 @@ h1 {
 
 .bloco:hover {
     transform: scale(1.1);
-    border: 3px solid #000000;
+    border: 3px solid #141414;
 
 }
-
 
 
 .bloco img {
@@ -333,20 +326,15 @@ h1 {
 }
 
 
-
-
-
 .container-projects {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
     background-color: #f0f0f0;
-    height: 600px;
-    padding-top: 90px;
+    height: 1200px;
+    padding-top: 170px;
 }
-
-
 
 .project001,
 .project002,
@@ -442,22 +430,9 @@ h1 {
     background-color: #d16818;
 }
 
-
-.container-contact {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 15px;
-    background-color: #ffffff;
-    border-radius: 25px;
-    box-shadow: -5px -5px 10px rgba(5, 5, 5, 0.1),
-        5px 3px 10px #1a1b1b,
-        inset -5px -5px 15px #1a1b1b,
-        inset 5px 10px 10px #1a1b1b;
-}
-
 .container-contact h2 {
     text-align: center;
-    color: #000000;
+    color: #141414;
     font-weight: 600;
 }
 
@@ -501,7 +476,7 @@ textarea {
 
 .container-contact button:hover {
     background-color: #fb8500;
-    color: #000000;
+    color: #141414;
     font-weight: 600;
     box-shadow: 2px 2px 2px 2px solid #000000;
 
@@ -510,7 +485,7 @@ textarea {
 
 .fale {
     text-align: center;
-    background-color: rgb(0, 0, 0);
+    background-color: #141414;
     width: 100%;
     height: 149px;
     margin-top: -52px;
@@ -541,7 +516,7 @@ textarea {
 
 .direitos {
     text-align: center;
-    color: #070707;
+    color: #141414;
     padding-bottom: 15px;
     font-weight: 600;
 
@@ -780,7 +755,7 @@ textarea {
 
 
     .container-about {
-        background-color: #000000;
+        background-color: #141414;
         height: 395px;
     }
 
@@ -818,7 +793,6 @@ textarea {
 
 
 
-
     .container {
         max-width: 90%;
 
@@ -843,16 +817,11 @@ textarea {
     }
 
     .bloco p {
-        font-size: 11px;
+        font-size: 10px;
         padding-left: 4px;
         padding-right: 4px;
         font-weight: 600;
     }
-
-    .container-projects {
-        height: 2400px;
-    }
-
 
     .projects {
         flex-direction: column;
@@ -862,9 +831,6 @@ textarea {
     .project {
         flex: 0 0 calc(100% - 20px);
     }
-
-
-
 
     .container-contact {
         max-width: 320px;
@@ -1003,7 +969,7 @@ textarea {
         width: 100%;
         height: 100%;
         flex-direction: column;
-        color: #000000;
+        color: #141414;
         gap: 2px;
         transition: 0.3s;
         font-size: 17px;
@@ -1021,7 +987,7 @@ textarea {
 
     .nav-menu i {
         font-size: 40px;
-        color: #000000;
+        color: #141414;
     }
 
     .nav-menu li:hover {
@@ -1038,7 +1004,7 @@ textarea {
 
 
     .nav-menu i:hover {
-        color: #0e0e0e;
+        color: #141414;
     }
 
 
@@ -1070,7 +1036,6 @@ textarea {
     }
 
 
-
     .home-img img {
         display: none;
     }
@@ -1082,7 +1047,6 @@ textarea {
         font-size: 50px;
 
     }
-
 
 
 
@@ -1125,12 +1089,12 @@ textarea {
     }
 
     .container-about span {
-        color: #000000;
+        color: #141414;
     }
 
     .p-about {
         background-color: #ffffff;
-        color: #000000;
+        color: #141414;
         font-size: 15px;
         font-weight: 500;
         text-align: center;
@@ -1160,7 +1124,7 @@ textarea {
 
 
     .container-about {
-        background-color: #000000;
+        background-color: #141414;
         height: 96px;
     }
 
