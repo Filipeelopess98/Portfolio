@@ -265,6 +265,13 @@ img {
     border-radius: 30px;
 }
 
+.project-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
 .container {
     text-align: center;
     margin: 0 auto;
@@ -274,13 +281,14 @@ img {
 
 section {
     height: 700px;
+    padding-bottom: 150px;
 
 }
 
 h1 {
     text-align: center;
     padding-top: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
     font-size: 50px;
     color: #141414;
 }
@@ -311,6 +319,7 @@ h1 {
 }
 
 
+
 .bloco img {
     max-width: 100px;
     margin-top: 20px;
@@ -326,15 +335,29 @@ h1 {
 }
 
 
+.container-contact {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+
+
+
 .container-projects {
+    background-color: #f0efef;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
-    background-color: #f0f0f0;
-    height: 1200px;
-    padding-top: 170px;
+    margin-top: 20px;
+    height: 890px;
 }
+
+
+
+
 
 .project001,
 .project002,
@@ -793,6 +816,7 @@ textarea {
 
 
 
+
     .container {
         max-width: 90%;
 
@@ -823,6 +847,11 @@ textarea {
         font-weight: 600;
     }
 
+    .container-projects {
+        height: 2400px;
+    }
+
+
     .projects {
         flex-direction: column;
         align-items: center;
@@ -831,6 +860,9 @@ textarea {
     .project {
         flex: 0 0 calc(100% - 20px);
     }
+
+
+
 
     .container-contact {
         max-width: 320px;
@@ -1099,50 +1131,45 @@ textarea {
         font-weight: 500;
         text-align: center;
         height: auto;
-        flex: 1;
         padding-right: 15px;
         padding-left: 15px;
         margin-top: 171px;
-        height: 497px;
+        height: 410px;
     }
+}
 
-    .container-about span {
-        font-size: 50px;
+.container-about span {
+    font-size: 50px;
 
-    }
-
-
-
-    .container-about img {
-        padding-top: 13px;
-        width: 453px;
-        padding-right: 20px;
-        max-width: 109%;
-        border-radius: 30px;
-        animation: floatUpDown 2s ease-in-out infinite;
-    }
-
-
-    .container-about {
-        background-color: #141414;
-        height: 96px;
-    }
+}
 
 
 
-    .container-about span {
-        padding-top: 20px;
-        padding-bottom: 50px;
-
-    }
-
-
-
-    .name-tec {
-        height: 1000px;
-
-    }
+.container-about img {
+    padding-top: 13px;
+    width: 453px;
+    padding-right: 20px;
+    max-width: 109%;
+    border-radius: 30px;
+    animation: floatUpDown 2s ease-in-out infinite;
+}
 
 
+.container-about {
+    background-color: #141414;
+    height: 96px;
+}
+
+
+
+.container-about span {
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+
+.name-tec {
+    height: 1000px;
 
 }
