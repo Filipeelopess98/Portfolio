@@ -326,7 +326,7 @@ h1 {
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 10px;
-    font-weight: 500;
+
 }
 
 
@@ -780,36 +780,41 @@ textarea {
 
 
     .container-about {
-        height: auto;
+        height: 820px;
 
+    }
+
+    .container-about h1 {
+        font-size: 40px;
+        padding-top: 45px;
     }
 
     .container-about img {
-        display: none;
+        width: 370px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 20px;
+        padding-top: 35px;
+        padding-bottom: 15px;
     }
 
     .p-about {
-        width: 90%;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 400;
 
     }
-
-
-    .container-about {
-        background-color: #f0efef;
-
-    }
-
 
 
 
     h1 {
         text-align: center;
-        padding-top: 30px;
         padding-bottom: 40px;
-        font-size: 30px;
+        font-size: 35px;
     }
-
-
 
 
     .container {
@@ -819,7 +824,7 @@ textarea {
 
     .bloco {
         width: 162px;
-        height: 280px;
+        height: 320px;
         transition: transform 0.3s ease-in-out;
 
     }
@@ -836,14 +841,14 @@ textarea {
     }
 
     .bloco p {
-        font-size: 10px;
+        font-size: 12px;
         padding-left: 4px;
         padding-right: 4px;
-        font-weight: 600;
+
     }
 
     .container-projects {
-        height: 2400px;
+        height: 2759px;
     }
 
 
@@ -855,8 +860,6 @@ textarea {
     .project {
         flex: 0 0 calc(100% - 20px);
     }
-
-
 
 
     .container-contact {
@@ -1091,9 +1094,7 @@ textarea {
 
     }
 
-
-    .button-curriculum,
-    .button-github {
+    .button-curriculum {
 
         width: 200px;
         height: 50px;
@@ -1114,55 +1115,6 @@ textarea {
         justify-content: center;
         gap: 30px;
     }
-
-    .container-about span {
-        color: #141414;
-    }
-
-    .p-about {
-        background-color: #ffffff;
-        color: #141414;
-        font-size: 15px;
-        font-weight: 500;
-        text-align: center;
-        height: auto;
-        flex: 1;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-top: 171px;
-        height: 497px;
-    }
-
-    .container-about span {
-        font-size: 50px;
-
-    }
-
-
-
-    .container-about img {
-        padding-top: 13px;
-        width: 453px;
-        padding-right: 20px;
-        max-width: 109%;
-        border-radius: 30px;
-        animation: floatUpDown 2s ease-in-out infinite;
-    }
-
-
-    .container-about {
-        background-color: #141414;
-        height: 96px;
-    }
-
-
-
-    .container-about span {
-        padding-top: 20px;
-        padding-bottom: 50px;
-
-    }
-
 
 
     .name-tec {
